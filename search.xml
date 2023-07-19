@@ -8,7 +8,7 @@
       <link href="/2023/07/18/%E4%B8%AA%E4%BA%BA%E6%92%AD%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%B8%80%EF%BC%89/"/>
       <url>/2023/07/18/%E4%B8%AA%E4%BA%BA%E6%92%AD%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%B8%80%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<h1 id="个人播客搭建（一）"><a href="#个人播客搭建（一）" class="headerlink" title="个人播客搭建（一）"></a>个人播客搭建（一）</h1><h2 id="一、技术栈"><a href="#一、技术栈" class="headerlink" title="一、技术栈"></a>一、技术栈</h2><ul><li>语言：Python</li><li>框架：Django</li><li>数据库：MySQL</li><li>服务器：Nginx</li><li>部署：Docker</li><li>前端：Vue</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1>个人播客搭建（一）</h1><h2 id="一、技术栈">一、技术栈</h2><ul><li>语言：Python</li><li>框架：Django</li><li>数据库：MySQL</li><li>服务器：Nginx</li><li>部署：Docker</li><li>前端：Vue</li></ul>]]></content>
       
       
       
