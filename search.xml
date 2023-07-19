@@ -64,33 +64,22 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
+      <title>Music...</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-LXGicaai" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="0009DtA34CLrKk" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<div class="note success flat"><p>Adele</p></div>    <div id="aplayer-PFmEmisr" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>照片</title>
+      <title>Photos...</title>
       <link href="/photos/index.html"/>
       <url>/photos/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="note blue icon-padding simple"><i class="note-icon fas fa-camera"></i><p>岁月的痕迹，时光的印记，都在这里。</p></div><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/photos/wallpaper/ocean.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>一些壁纸</p>  <a href='/photos/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/photos/film/YourNameEngravedHerein-1.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">电影</div>  <p>一些电影截图</p>  <a href='/photos/film'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -102,6 +91,28 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Films...</title>
+      <link href="/photos/film/index.html"/>
+      <url>/photos/film/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"/photos/film/YourNameEngravedHerein-1.jpg","alt":""},{"url":"/photos/film/YourNameEngravedHerein-2.jpg","alt":""},{"url":"/photos/film/YourNameEngravedHerein-3.jpg","alt":""},{"url":"/photos/film/YourNameEngravedHerein-4.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Wallpapers...</title>
+      <link href="/photos/wallpaper/index.html"/>
+      <url>/photos/wallpaper/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"/photos/wallpaper/ocean.jpg","alt":""},{"url":"/photos/wallpaper/cloud.jpg","alt":""},{"url":"/photos/wallpaper/sky.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
       
     </entry>
     

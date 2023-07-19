@@ -6,7 +6,7 @@
   <link href="https://www.angfff.top/atom.xml" rel="self"/>
   
   <link href="https://www.angfff.top/"/>
-  <updated>2023-07-19T09:36:25.763Z</updated>
+  <updated>2023-07-19T16:13:59.342Z</updated>
   <id>https://www.angfff.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.angfff.top/posts/ad52d94.html"/>
     <id>https://www.angfff.top/posts/ad52d94.html</id>
     <published>2023-07-18T12:30:44.000Z</published>
-    <updated>2023-07-19T09:36:25.763Z</updated>
+    <updated>2023-07-19T16:13:59.342Z</updated>
     
     <content type="html"><![CDATA[<h1>个人播客搭建（一）</h1><h2 id="一、技术栈">一、技术栈</h2><ul><li>语言：Python</li><li>框架：Django</li><li>数据库：MySQL</li><li>服务器：Nginx</li><li>部署：Docker</li><li>前端：Vue</li></ul>]]></content>
     
