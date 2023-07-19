@@ -20,11 +20,44 @@
     
     
     <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/baidu_verify_codeva-4BJSPplfJw.html"/>
+      <url>/baidu_verify_codeva-4BJSPplfJw.html</url>
+      
+        <content type="html"><![CDATA[1228dc36fb3fa834ab34b52f14d64797]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-QXIoNOXK" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="0009DtA34CLrKk" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-ItoYWpRV" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="0009DtA34CLrKk" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -34,17 +67,6 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -64,17 +86,6 @@
     
     
     <entry>
-      <title>照片</title>
-      <link href="/photos/index.html"/>
-      <url>/photos/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -86,9 +97,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>照片</title>
+      <link href="/photos/index.html"/>
+      <url>/photos/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
