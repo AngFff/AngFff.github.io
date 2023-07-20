@@ -8,9 +8,27 @@
       <link href="/posts/ad52d94.html"/>
       <url>/posts/ad52d94.html</url>
       
-        <content type="html"><![CDATA[<h1>个人播客搭建（一）</h1><h2 id="一、技术栈">一、技术栈</h2><ul><li>语言：Python</li><li>框架：Django</li><li>数据库：MySQL</li><li>服务器：Nginx</li><li>部署：Docker</li><li>前端：Vue</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1>个人播客搭建（一）</h1><div class="note red icon-padding flat"><i class="note-icon fas fa-fan fa-spin"></i><p>本文是搭建个人博客系列的第一篇文章，主要包括本地环境搭建、远程仓库搭建两个部分。</p></div><h2 id="一、技术栈">一、技术栈</h2><ul><li>语言：HTML、CSS、JavaScript、MarkDown</li><li>框架：Hexo</li><li>主题：ButterFly</li><li>仓库：GitHub</li><li>第三方托管：Vercel</li><li>域名：阿里云</li></ul><h2 id="二、本地环境搭建">二、本地环境搭建</h2><h3 id="1-安装Node-js">1. 安装Node.js</h3><ul><li>下载地址：<a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></li><li>安装完成后，打开命令行，输入<code>node -v</code>和<code>npm -v</code>，查看是否安装成功</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> 实战 </category>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> ButterFly </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,7 +42,7 @@
       <link href="/manifest.json"/>
       <url>/manifest.json</url>
       
-        <content type="html"><![CDATA[{"name":"AngFff's Blog","short_name":"AngFff","theme_color":"#D66F37","background_color":"#D66F37","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+        <content type="html"><![CDATA[{"name":"AngFff's Blog","short_name":"AngFff","theme_color":"#87CEEB","background_color":"#87CEEB","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-16.png","sizes":"16x16","type":"image/png"},{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-32.png","sizes":"32x32","type":"image/png"},{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-48.png","sizes":"48x48","type":"image/png"},{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-64.png","sizes":"64x64","type":"image/png"},{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-128.png","sizes":"128x128","type":"image/png"},{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-144.png","sizes":"144x144","type":"image/png"},{"src":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/siteicon-drumstick-512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     
@@ -68,7 +86,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-iPnNNPvY" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details>]]></content>
+        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-ANFfMaob" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details>]]></content>
       
     </entry>
     
@@ -79,7 +97,7 @@
       <link href="/photos/index.html"/>
       <url>/photos/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-camera"></i><p>岁月的痕迹，时光的印记，都在这里。</p></div><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/photos/wallpaper/ocean.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>一些壁纸</p>  <a href='/photos/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/photos/film/YourNameEngravedHerein-1.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">电影</div>  <p>一些电影截图</p>  <a href='/photos/film'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-camera"></i><p>岁月的痕迹，时光的印记，都在这里。</p></div><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-ocean-1.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>一些壁纸</p>  <a href='/photos/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/film-YourNameEngravedHerein-1.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">电影</div>  <p>一些电影截图</p>  <a href='/photos/film'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -101,7 +119,7 @@
       <link href="/photos/film/index.html"/>
       <url>/photos/film/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"/photos/film/YourNameEngravedHerein-1.jpg","alt":""},{"url":"/photos/film/YourNameEngravedHerein-2.jpg","alt":""},{"url":"/photos/film/YourNameEngravedHerein-3.jpg","alt":""},{"url":"/photos/film/YourNameEngravedHerein-4.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/film-YourNameEngravedHerein-1.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/film-YourNameEngravedHerein-2.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/film-YourNameEngravedHerein-3.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/film-YourNameEngravedHerein-4.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
       
     </entry>
     
@@ -112,7 +130,7 @@
       <link href="/photos/wallpaper/index.html"/>
       <url>/photos/wallpaper/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"/photos/wallpaper/ocean.jpg","alt":""},{"url":"/photos/wallpaper/cloud.jpg","alt":""},{"url":"/photos/wallpaper/sky.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-nature-1.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-nature-2.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-light-1.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-light-2.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-light-3.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-ocean-1.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-cloud-1.jpg","alt":""},{"url":"https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/wallpaper-sky-1.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
       
     </entry>
     

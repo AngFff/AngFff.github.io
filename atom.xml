@@ -6,7 +6,7 @@
   <link href="https://www.angfff.top/atom.xml" rel="self"/>
   
   <link href="https://www.angfff.top/"/>
-  <updated>2023-07-19T17:00:24.847Z</updated>
+  <updated>2023-07-20T08:17:50.154Z</updated>
   <id>https://www.angfff.top/</id>
   
   <author>
@@ -21,25 +21,25 @@
     <link href="https://www.angfff.top/posts/ad52d94.html"/>
     <id>https://www.angfff.top/posts/ad52d94.html</id>
     <published>2023-07-18T12:30:44.000Z</published>
-    <updated>2023-07-19T17:00:24.847Z</updated>
+    <updated>2023-07-20T08:17:50.154Z</updated>
     
-    <content type="html"><![CDATA[<h1>个人播客搭建（一）</h1><h2 id="一、技术栈">一、技术栈</h2><ul><li>语言：Python</li><li>框架：Django</li><li>数据库：MySQL</li><li>服务器：Nginx</li><li>部署：Docker</li><li>前端：Vue</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1>个人播客搭建（一）</h1><div class="note red icon-padding flat"><i class="note-icon fas fa-fan fa-spin"></i><p>本文是搭建个人博客系列的第一篇文章，主要包括本地环境搭建、远程仓库搭建两个部分。</p></div><h2 id="一、技术栈">一、技术栈</h2><ul><li>语言：HTML、CSS、JavaScript、MarkDown</li><li>框架：Hexo</li><li>主题：ButterFly</li><li>仓库：GitHub</li><li>第三方托管：Vercel</li><li>域名：阿里云</li></ul><h2 id="二、本地环境搭建">二、本地环境搭建</h2><h3 id="1-安装Node-js">1. 安装Node.js</h3><ul><li>下载地址：<a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></li><li>安装完成后，打开命令行，输入<code>node -v</code>和<code>npm -v</code>，查看是否安装成功</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h1&gt;个人播客搭建（一）&lt;/h1&gt;
-&lt;h2 id=&quot;一、技术栈&quot;&gt;一、技术栈&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;语言：Python&lt;/li&gt;
-&lt;li&gt;框架：Django&lt;/li&gt;
-&lt;li&gt;数据库：MySQL&lt;/li&gt;
-&lt;li&gt;服务器：Nginx&lt;/li&gt;
-&lt;li&gt;部署：Docker&lt;</summary>
-      
+    <summary type="html">（一）本地环境及远程仓库搭建</summary>
     
     
     
+    <category term="实战" scheme="https://www.angfff.top/categories/%E5%AE%9E%E6%88%98/"/>
+    
+    <category term="博客" scheme="https://www.angfff.top/categories/%E5%AE%9E%E6%88%98/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="博客搭建" scheme="https://www.angfff.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo" scheme="https://www.angfff.top/tags/Hexo/"/>
+    
+    <category term="ButterFly" scheme="https://www.angfff.top/tags/ButterFly/"/>
     
   </entry>
   
