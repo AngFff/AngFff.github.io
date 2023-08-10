@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>M系列 Mac CLion 环境配置问题(一)</title>
+      <link href="/posts/65843a24.html"/>
+      <url>/posts/65843a24.html</url>
+      
+        <content type="html"><![CDATA[<h1>关于 M1 Mac 中 CLion 添加头文件情况下仍无法调用 __gcd 函数的解决办法</h1><h2 id="一、问题描述">一、问题描述</h2><p>近期在学习 C++ 的过程中发现，正常调用 __gcd 函数（最大公因数函数），CLion 报错无法调用。</p><p>代码：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b;</span><br><span class="line">    cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    cout &lt;&lt; __gcd(a, b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>错误如下：</p><blockquote><p>error: use of undeclared identifier ‘__gcd’</p></blockquote><h2 id="二、问题处理">二、问题处理</h2><p>尝试各种方式后，最终发现是编译器的问题，在此记录处理过程，有相同问题的同学可以参考。</p><h3 id="（一）系统及软件版本">（一）系统及软件版本</h3><p>系统：macOS Ventura 13.2</p><p>软件：CLion 2022.3.2</p><h3 id="（二）解决流程">（二）解决流程</h3><p>之前在安装 CLion 时我直接按照 CLion 的提示安装了 Command Line Tools ，并直接使用了 CLion 的默认编译器配置，这样就有可能导致编译过程中出现错误，需要重新配一下环境。</p><ol><li>打开终端，确认Command Line Tools是否安装成功。</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Xcode-<span class="keyword">select</span> -install</span><br></pre></td></tr></table></figure><ol start="2"><li>利用 Homebrew 安装 gcc</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install gcc</span><br></pre></td></tr></table></figure><p>​注：安装 gcc 编译器时可能出现问题，解决方法可参照 <a href="https://blog.csdn.net/weixin_45571585/article/details/126977413?spm=1001.2101.3001.6650.6&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-126977413-blog-116170561.pc_relevant_aa&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-126977413-blog-116170561.pc_relevant_aa&amp;utm_relevant_index=11">gcc 安装教程</a>。</p><ol start="3"><li>利用 Homebrew 安装 cmake</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install cmake</span><br></pre></td></tr></table></figure><ol start="4"><li>重新配置 CLion</li></ol><p>进入 CLion <code>设置 -- 构建、执行、部署 -- 工具链</code> 修改构建工具、 C 编译器以及 C++ 编译器，如下：</p><ul><li>原配置：</li></ul><p><img src="https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%80%20CLion%E5%8E%9F%E9%85%8D%E7%BD%AE.png" alt="CLion原配置"></p><ul><li>修改为：</li></ul><p><img src="https://cdn.statically.io/gh/AngFff/Blog-Pic@master/img/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%80%20CLion%E9%85%8D%E7%BD%AE%E4%BF%AE%E6%94%B9.png" alt="CLion配置修改"></p><p><strong>注1：可能版本有点区别，只要在文件中选取 ctest 、 gcc-xx 、 g+±xx 即可；</strong></p><p><strong>注2：如果点开文件后找不到文件夹，按下 <code>commond + shift + .</code> 即可显示隐藏文件夹，选好后再按一次即可隐藏</strong></p><ol start="5"><li>重启一下 CLion 即可调用 __gcc 函数</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境配置 </category>
+          
+          <category> CLion </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mac环境配置 </tag>
+            
+            <tag> CLion </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git基础</title>
       <link href="/posts/1a60696b.html"/>
       <url>/posts/1a60696b.html</url>
@@ -115,7 +144,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-HSarGNJV" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details>]]></content>
+        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-JARWUgXr" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details>]]></content>
       
     </entry>
     
