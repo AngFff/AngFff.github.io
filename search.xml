@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Sklearn 导入随机逻辑回归函数 RLR 失败原因及解决</title>
+      <link href="/posts/5fd458f7.html"/>
+      <url>/posts/5fd458f7.html</url>
+      
+        <content type="html"><![CDATA[<h1>一、问题描述</h1><ol><li><p>描述：在进行分类任务时，导入随机逻辑回归模型 RandomizedLogisticRegression 时会提示无法找到该模型。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> RandomizedLogisticRegression <span class="keyword">as</span> RLR</span><br></pre></td></tr></table></figure></li><li><p>分析：自 sklearn 0.19.2 版本后，随机逻辑回归模型已经被移除</p></li><li><p>当前软件版本</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sklearn</span><br><span class="line">sklearn.show_versions()</span><br></pre></td></tr></table></figure><blockquote><p>System:<br>python: 3.9.16</p><p>Python dependencies:</p><p>​sklearn: 1.3.2</p><p>​numpy: 1.26.2</p><p>​scipy: 1.10.1</p><p>​pandas: 2.1.3</p><p>​matplotlib: 3.7.1</p><p>​joblib: 1.3.2</p></blockquote></li></ol><h1>二、解决办法</h1><h2 id="（一）手动安装随机逻辑回归模型">（一）手动安装随机逻辑回归模型</h2><ol><li><p>模型仓库：<a href="https://github.com/scikit-learn-contrib/stability-selection">https://github.com/scikit-learn-contrib/stability-selection</a></p></li><li><p>安装参考：<a href="https://github.com/scikit-learn-contrib/stability-selection/issues/38">https://github.com/scikit-learn-contrib/stability-selection/issues/38</a></p><blockquote><p>注：</p><p>​安装随机逻辑回归模型后，能够解决模型导入时的报错问题，并能够正确拟合训练模型。</p><p>​但是在后续查看特征筛选结果和 Score 分数时，会无法调用 rlr.get_support() 和 rlr.scores_ 方法，可能是因为高版本在移除随机逻辑回归模型时，也对 sklearn_base 中的方法做了修改，无法再按旧版本方法调用。</p></blockquote></li></ol><h2 id="（二）采用低版本-Scikit-Learn">（二）采用低版本 Scikit-Learn</h2><ol><li><p>低版本 Scikit-Learn 所需的环境</p><blockquote><p>Python 3.8 及以下（建议 Python 3.6）</p><p>Numpy 1.23.5 及以下（建议 Numpy 1.20.0）</p><p>Scikit-Learn 0.19.2</p><p>注：</p><ol><li>所建议版本是较为久远的版本，可能会出现无法找到对应源、无法安装的情况，需根据自己的电脑情况调整；</li><li>M 系列 Mac 由于架构不同，不支持 3.8 版本以下的 Python，请使用 Python 3.8；</li><li>Scikit-Learn 最好使用 0.19.2 版本。</li></ol></blockquote></li><li><p>安装过程</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">conda 创建虚拟环境 Python 3.8</span></span><br><span class="line">conda create -n py38 python=3.8</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">激活 py38 环境</span></span><br><span class="line">conda activate py38</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装相关库</span></span><br><span class="line">pip install numpy==1.23.5</span><br><span class="line">pip install scipy</span><br><span class="line">pip install pandas</span><br><span class="line">pip install xlrd</span><br><span class="line">pip install scikit-learn==0.19.2</span><br></pre></td></tr></table></figure><blockquote><p>注：</p><ol><li>以上过程均在终端 shell 中安装；</li><li>或者选用 Anaconda 图形化界面安装。</li></ol></blockquote></li><li><p>安装完毕后，在 Pycharm 右下角添加并使用新的 Python 解释器即可。</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境配置 </category>
+          
+          <category> Sklearn </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 环境配置 </tag>
+            
+            <tag> Sklearn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CIFAR100 多模型训练结果及分析</title>
       <link href="/posts/2fb8888f.html"/>
       <url>/posts/2fb8888f.html</url>
@@ -326,7 +355,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-NmIcvwtL" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details><hr>    <div id="aplayer-nZiVBQuH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1892652689" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">I Drink Wine</summary><div class="toggle-content"><p>I hope in time (Hope in time) we both will find (We’ll both find) peace of mind<br>我希望届时 我们都能 找到心灵的平静<br>Sometimes the road less traveled is the road best left behind (Ah, ah, ah, ah)<br>有时候，人迹罕至的道路才是最好的那一条道路</p><p>Well, so I hope I learn to get over myself<br>所以我只希望我能学会克服自己<br>Stop trying to be somebody else<br>不要再努力着成为别人</p><p>You better believe I’m trying (Trying, trying)<br>但你最好相信 我在尝试<br>To keep climbing (Climbing, climbing)<br>继续攀登<br>But the higher we climb feels like we’re both none the wiser<br>但是我们越到高处，越发感觉我们都并非智者</p></div></details>]]></content>
+        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-jhgKhKyq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details><hr>    <div id="aplayer-VcqMrTTl" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1892652689" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">I Drink Wine</summary><div class="toggle-content"><p>I hope in time (Hope in time) we both will find (We’ll both find) peace of mind<br>我希望届时 我们都能 找到心灵的平静<br>Sometimes the road less traveled is the road best left behind (Ah, ah, ah, ah)<br>有时候，人迹罕至的道路才是最好的那一条道路</p><p>Well, so I hope I learn to get over myself<br>所以我只希望我能学会克服自己<br>Stop trying to be somebody else<br>不要再努力着成为别人</p><p>You better believe I’m trying (Trying, trying)<br>但你最好相信 我在尝试<br>To keep climbing (Climbing, climbing)<br>继续攀登<br>But the higher we climb feels like we’re both none the wiser<br>但是我们越到高处，越发感觉我们都并非智者</p></div></details>]]></content>
       
     </entry>
     
