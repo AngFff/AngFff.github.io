@@ -4,6 +4,43 @@
   
     
     <entry>
+      <title>实战项目——股票分析系统</title>
+      <link href="/posts/82f46f22.html"/>
+      <url>/posts/82f46f22.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 实战项目 </category>
+          
+          <category> 股票分析系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 实战项目 </tag>
+            
+            <tag> Flask </tag>
+            
+            <tag> Node.js </tag>
+            
+            <tag> Vuetify </tag>
+            
+            <tag> 前后端分离 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python 学习笔记</title>
       <link href="/posts/7db8c537.html"/>
       <url>/posts/7db8c537.html</url>
@@ -504,7 +541,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-qwKYuAbn" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details><hr>    <div id="aplayer-AirtAcPM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1892652689" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">I Drink Wine</summary><div class="toggle-content"><p>I hope in time (Hope in time) we both will find (We’ll both find) peace of mind<br>我希望届时 我们都能 找到心灵的平静<br>Sometimes the road less traveled is the road best left behind (Ah, ah, ah, ah)<br>有时候，人迹罕至的道路才是最好的那一条道路</p><p>Well, so I hope I learn to get over myself<br>所以我只希望我能学会克服自己<br>Stop trying to be somebody else<br>不要再努力着成为别人</p><p>You better believe I’m trying (Trying, trying)<br>但你最好相信 我在尝试<br>To keep climbing (Climbing, climbing)<br>继续攀登<br>But the higher we climb feels like we’re both none the wiser<br>但是我们越到高处，越发感觉我们都并非智者</p></div></details>]]></content>
+        <content type="html"><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-arrow-down-a-z"></i><p>Adele</p></div>    <div id="aplayer-uNDmvqgz" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="36841427" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">Love In The Dark</summary><div class="toggle-content"><p>We’re not the only ones<br>我们不是彼此命中之人<br>I don’t regret a thing<br>我不会后悔我的决定<br>Every word I’ve said<br>我曾诉说的一言一语<br>You know I’ll always mean<br>而你知道我的言语从不虚假<br>It is the world to mean<br>世界证明我的心从不虚假<br>That you are in my life<br>你的确曾让我的生命灿烂如花<br>But I want to live，And not just survive<br>但此刻我只想活出自己，而不是傀儡般的生存着</p></div></details><hr>    <div id="aplayer-TcQSyMam" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1892652689" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86" data-loop="none"    ></div><details class="toggle" ><summary class="toggle-button" style="">I Drink Wine</summary><div class="toggle-content"><p>I hope in time (Hope in time) we both will find (We’ll both find) peace of mind<br>我希望届时 我们都能 找到心灵的平静<br>Sometimes the road less traveled is the road best left behind (Ah, ah, ah, ah)<br>有时候，人迹罕至的道路才是最好的那一条道路</p><p>Well, so I hope I learn to get over myself<br>所以我只希望我能学会克服自己<br>Stop trying to be somebody else<br>不要再努力着成为别人</p><p>You better believe I’m trying (Trying, trying)<br>但你最好相信 我在尝试<br>To keep climbing (Climbing, climbing)<br>继续攀登<br>But the higher we climb feels like we’re both none the wiser<br>但是我们越到高处，越发感觉我们都并非智者</p></div></details>]]></content>
       
     </entry>
     
