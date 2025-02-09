@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/photos/index.html</loc>
+    <loc>https://www.angfff.top/music/index.html</loc>
     
     <lastmod>2025-02-09</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/music/index.html</loc>
+    <loc>https://www.angfff.top/photos/index.html</loc>
     
     <lastmod>2025-02-09</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/posts/1a60696b.html</loc>
+    <loc>https://www.angfff.top/posts/fedab68e.html</loc>
     
     <lastmod>2025-02-09</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/posts/fedab68e.html</loc>
+    <loc>https://www.angfff.top/posts/1a60696b.html</loc>
     
     <lastmod>2025-02-09</lastmod>
     
@@ -266,14 +266,14 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/tags/%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://www.angfff.top/tags/LeetCode/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.angfff.top/tags/Git/</loc>
+    <loc>https://www.angfff.top/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -294,14 +294,14 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/tags/LeetCode/</loc>
+    <loc>https://www.angfff.top/tags/%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.angfff.top/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://www.angfff.top/tags/Git/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -478,7 +478,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://www.angfff.top/categories/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -492,7 +492,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://www.angfff.top/categories/%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -506,7 +506,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/Git/</loc>
+    <loc>https://www.angfff.top/categories/%E7%AE%97%E6%B3%95/LeetCode/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -520,7 +520,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/CV/</loc>
+    <loc>https://www.angfff.top/categories/AI/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -541,7 +541,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/%E7%AE%97%E6%B3%95/LeetCode/</loc>
+    <loc>https://www.angfff.top/categories/%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/Git/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -569,14 +569,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/AI/</loc>
-    <lastmod>2025-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.angfff.top/categories/CV/CNN/</loc>
+    <loc>https://www.angfff.top/categories/AI/CV/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -611,14 +604,7 @@
   </url>
   
   <url>
-    <loc>https://www.angfff.top/categories/AI/MLX/</loc>
-    <lastmod>2025-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.angfff.top/categories/CV/ViT/</loc>
+    <loc>https://www.angfff.top/categories/AI/LLM/</loc>
     <lastmod>2025-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
